@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste - Formulários</title>
+</head>
+<body>
+    <h1>Teste - Formulários</h1>
+    
+    <h2>Área de Cadastro</h2>
+    <form action="tabelas.html" method="get">
+        <label for="user">Usuário:</label>
+        <input type="text" name="user" value="user"/>
+        <br><br>
+        <label for="color">Cor:</label>
+        <input type="color" name="color">
+        <br><br>
+        <label for="date">Data:</label>
+        <input type="date" name="date">
+        <br><br>
+        <label for="datetime">Data e Horário:</label>
+        <input type="datetime-local" name="datetime">
+        <br><br>
+        <label>
+            <input type="checkbox" name="teste">
+            Eu declaro que li e aceito os termos de uso.
+        </label>
+        <br><br>
+        <select name="ordem">
+            <option value="vendidos" selected>Mais Vendidos</option>
+            <option value="recente">Recentes</option>
+            <option value="maior">Maior Preço</option>
+            <option value="menor">Menor Preço</option>
+        </select>
+        <br><br>
+        <textarea name="mensagem" cols="20" rows="5"></textarea>
+        <br><br>
+        <input type="submit" value="Cadastrar" />        
+        <button>Texto do Botão</button>      
+    </form>
+</body>
+</html>

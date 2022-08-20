@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form02.css">
+    <title>Teste - Fieldset e Legend</title>
+</head>
+<body>
+    <form action="teste.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome:<br>
+                <input type="text" name="name" required minlength="3"/>
+            </label><br>
+            <label>
+                Último Nome:<br>
+                <input type="text" name="lastname" required minlength="3"/>
+            </label><br>
+            <label>
+                Idade:<br>
+                <input type="number" name="age" min="18" max="90" />
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Empresariais</legend>
+            <label>
+                Empresa:<br>
+                <input type="text" name="careername" required>
+            </label><br>
+            <label>
+                Cargo:<br>
+                <input type="text" name="jobname" required>
+            </label><br>
+        </fieldset>
+        <input type="submit" value="Cadastrar"/>
+    </form>
+</body>
+</html>

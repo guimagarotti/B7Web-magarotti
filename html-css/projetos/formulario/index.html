@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário - Escola Virtual</title>
+</head>
+<body>
+    <h1>Escola Virtual</h1>
+    <h3>Formulário de Pré-Matrícula</h3>
+    
+    <form method="post" autocomplete="off">
+        <fieldset class="personal-info">
+            <legend id="legend">Dados Pessoais</legend>            
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" name="nome"><br>
+            <label for="nasc">Nascimento:</label>
+            <input type="date" name="nasc"><br>
+            <label for="nome-mae">Nome da Mãe:</label>
+            <input type="text" name="nome-mae"><br>
+            <label for="nome-pai">Nome do Pai:</label>
+            <input type="text" name="nome-pai"><br>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+        </fieldset>
+
+        <fieldset class="matricula-info">
+            <legend>Dados da Matrícula</legend>
+            <div>
+                <label for="serie">Série:</label><br>
+                <select name="serie">
+                    <option value="pre-escolar">Pré-Escolar</option>
+                    <option value="fundamental">Ensino Fundamental</option>
+                    <option value="medio">Ensino Médio</option>
+                    <option value="tecnico">Ensino Técnico</option>
+                </select><br>
+            </div>
+
+            <div>
+                <label>Turno:</label><br>
+                <input type="radio" name="turno">
+                <label for="turno">Manhã</label><br>
+                <input type="radio" name="turno">
+                <label for="turno">Tarde</label>
+            </div>
+
+            <div>
+                <label>Atividades Extracurrículares:</label><br>
+                <input type="checkbox" name="informatica">Informática<br>
+                <input type="checkbox" name="musica">Música<br>
+                <input type="checkbox" name="ballet">Ballet<br>
+                <input type="checkbox" name="pintura">Pintura<br>
+                <input type="checkbox" name="judo">Judô<br>
+                <input type="checkbox" name="futebol">Futebol
+            </div>
+        </fieldset>
+    </form>
+    
+    <div class="buttons">
+        <button type="submit">Enviar Formulário</button>
+        <button type="submit">Limpar Formulário</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.botao {
+    font-size: 50px;
+    padding: 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background: skyblue;
+}

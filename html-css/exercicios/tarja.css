@@ -1,0 +1,20 @@
+.aviso {
+    background-color: rgb(71, 180, 248);    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0;
+    border: 3px solid rgb(185, 185, 185);
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    transform: rotate(-45deg);
+    width: 300px;
+    right: 20px;
+    left: -35px;
+    right: -35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px black;
+}

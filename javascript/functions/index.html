@@ -7,8 +7,13 @@
     <title>Olá, mundo!</title>
 </head>
 <body>
-    <h1>Olá, JS!</h1>
+    <img src="images/cachorro.webp" class="imagem" data-animal="Cachorro" width="600px" /><br>
 
-    <script src="ex03.js"></script>
+    <button onclick="trocarAnimal('cachorro.webp', 'Cachorro')">Cachorro</button>
+    <button onclick="trocarAnimal('gato.jpg', 'Gato')">Gato</button>
+    
+    <button id="exibidor" onclick="exibeAnimal()">Qual o animal?</button>
+
+    <script src="trocas.js"></script>
 </body>
 </html>
